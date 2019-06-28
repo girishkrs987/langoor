@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test name="Regression1">
+  
+  
+  <classes>
+			<class name="TestScripts.Growth_Assessment_height" />
+			<class name="TestScripts.Growth_Assessment_weight" />
+		</classes>
+  </test> <!-- growth_assesment -->
+</suite> <!-- Suite -->
