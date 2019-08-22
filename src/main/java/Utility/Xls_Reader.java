@@ -22,7 +22,9 @@ import java.util.GregorianCalendar;
 
 @SuppressWarnings("ALL")
 public class Xls_Reader {
-   public static String filename = "C:\\Users\\Girish\\eclipse-workspace\\MVCQA\\src\\main\\java\\Test_Data\\Selenium_Data.xlsx";
+	
+	
+  // public static String filename = "C:\\Users\\Girish\\eclipse-workspace\\MVCQA\\src\\main\\java\\Test_Data\\Selenium_Data.xlsx";
     public  String path;
     public  FileInputStream fis = null;
     public  FileOutputStream fileOut =null;
@@ -225,8 +227,6 @@ public class Xls_Reader {
 
 
             sheet = workbook.getSheetAt(index);
-
-
             row=sheet.getRow(0);
             for(int i=0;i<row.getLastCellNum();i++){
                 //System.out.println(row.getCell(i).getStringCellValue().trim());
